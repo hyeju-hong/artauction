@@ -178,7 +178,7 @@
     /* display: block; */
     width: 250px;
     height: 65px;
-    background-color: var(--main-button);
+    background-color: var(#000000);
     color: var(--w-color);
     border-radius: 30px;
     position: absolute;
@@ -188,8 +188,6 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-
-    color: var(--w-color);
 
     font-family: var(--main-font);
     font-size: 27px;
