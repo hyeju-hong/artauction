@@ -134,7 +134,9 @@
 
 }
 
-.main_visual .inner .sub_tit {}
+.main_visual .inner .sub_tit {
+    
+}
 
 .main_visual .inner .sub_tit h4 {
     font-family: "Quicksand", sans-serif;
@@ -178,7 +180,7 @@
     /* display: block; */
     width: 250px;
     height: 65px;
-    background-color: var(#000000);
+    background-color: #121212;
     color: var(--w-color);
     border-radius: 30px;
     position: absolute;
@@ -188,7 +190,7 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-
+    
     font-family: var(--main-font);
     font-size: 27px;
     font-style: normal;
@@ -196,10 +198,15 @@
     line-height: normal;
 
     z-index: 10;
-
+transition: .4s;
 
 }
-
+.main_visual .inner .sub_tit a:hover{
+    width: 280px;
+    height: 75px;
+    border-radius: 40px;
+    font-size: 29px;
+}
 .now {
     display: flex;
     height: 2100px;
