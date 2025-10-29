@@ -21,7 +21,7 @@
 .main_visual .swiper-slide {
     width: 100%;
     height: 100%;
-    background: url(../img/darkwoman.jpg) center/cover no-repeat;
+    background: url(../img/mainw.png) center/cover no-repeat;
     /* font-size: 5rem; */
     display: flex;
     /* justify-content: center; */
@@ -32,19 +32,19 @@
 
 
 .main_visual .main1 {
-    background-image: url(../img/darkwoman.jpg);
+    background-image: url(../img/mainw.png);
 }
 
 .main_visual .main2 {
-    background-image: url(../img/tel.jpg);
+    background-image: url(../img/centermoon.png);
 }
 
 .main_visual .main3 {
-    background-image: url(../img/flogirl.jpg);
+    background-image: url(../img/rightmoon.png);
 }
 
 .main_visual .main4 {
-    background-image: url(../img/boobs.jpg);
+    background-image: url(../img/colorswoman.png);
 }
 
 /* .main_visual>ul.slide {
